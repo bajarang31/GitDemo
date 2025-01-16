@@ -1,0 +1,22 @@
+Started by user [8mha:////4MOMB/htXyIomnO6kbCURicapokEU/KKTQJe499A0im2AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgY+/dLi1CL9pMSsxCKgOQBtlzctwwAAAA==[0mbajarang joshilkar
+Running as SYSTEM
+Building in workspace C:\Users\HP\workspace_python\PythonProject\PythonSelfFramework
+[PythonSelfFramework] $ cmd /c call C:\Users\HP\AppData\Local\Temp\jenkins13319844941966730681.bat
+
+C:\Users\HP\workspace_python\PythonProject\PythonSelfFramework>cd tests 
+
+C:\Users\HP\workspace_python\PythonProject\PythonSelfFramework\tests>py.test --browser_name chrome --html=$WORKSPACE\reports\reports.html 
+============================= test session starts =============================
+platform win32 -- Python 3.12.5, pytest-8.3.3, pluggy-1.5.0
+rootdir: C:\Users\HP\workspace_python\PythonProject\PythonSelfFramework\tests
+plugins: allure-pytest-2.13.5, html-4.1.1, metadata-3.1.1
+collected 2 items
+
+test_HomePage.py .                                                       [ 50%]
+test_e2e.py .                                                            [100%]
+
+- Generated html report: file:///C:/Users/HP/workspace_python/PythonProject/PythonSelfFramework/reports/reports.html -
+============================= 2 passed in 30.40s ==============================
+
+C:\Users\HP\workspace_python\PythonProject\PythonSelfFramework\tests>exit 0 
+Finished: SUCCESS
